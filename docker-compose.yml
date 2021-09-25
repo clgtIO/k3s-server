@@ -1,0 +1,7 @@
+version: '3.2'
+
+services:
+  k3s-backup:
+    image: nacud/clgt:k3s-backup
+    build:
+      context: .
